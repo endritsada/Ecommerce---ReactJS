@@ -5,9 +5,17 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  color: red;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+/* Custom CSS */
+@media (max-width: 575.98px) {
+  .custom-input {
+    width: 50% !important; /* Set the width to 50% for extra small screens */
+  }
 }
